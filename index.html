@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PergunteAoPolvo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="node_modules/fortawesome/fontawesome-free/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar mb-2">
+        <div class="container justify-content-end">
+          <h1 class="text-color text-monospace font-weight-light mt-3">
+            Pergunte ao Polvo
+          </h1>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <main role="main" class="pb-3 d-flex flex-column">
+        <div class="d-flex flex-column align-items-center">
+          <img src="img/octopus.png" alt="Polvo" class="w-50" />
+          <h4 class="text-monospace text-color mt-3">O que deseja saber?</h4>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <input
+            id="field"
+            type="text"
+            class="w-75 mt-2 mb-3 py-3 px-2 rounded"
+          />
+          <input
+            id="submit"
+            type="submit"
+            value="Pergunte ao Polvo"
+            class="btn btn-warning w-25"
+            onclick="submitClick()"
+          />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+<footer class="footer text-color text-center text-monospace font-weight-light">
+    <div class="container">
+        <i class="far fa-copyright far-xs"></i> 2021 - Pergunte ao Polvo <i class="fab fa-octopus-deploy"></i> coded by <a href="https://github.com/nathaliaiscoding" class="text-decoration-none text-dark">/nathalialaudano</a>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>

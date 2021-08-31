@@ -1,0 +1,34 @@
+﻿html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: rgb(100, 171, 242);
+  background: radial-gradient(
+    circle,
+    rgba(197, 223, 251, 1) 0%,
+    rgba(100, 171, 242, 1) 50%,
+    rgba(0, 114, 255, 1) 100%
+  );
+  font-family: monospace;
+  color: #23272b;
+}
+
+header {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+#submit {
+  font-family: sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  font-size: 0.7em;
+}
